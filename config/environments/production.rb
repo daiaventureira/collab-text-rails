@@ -38,7 +38,7 @@ Rails.application.configure do
   config.web_socket_server_url = "wss://collab-text.herokuapp.com/cable" 
 
   # config.action_cable.url = 'wss://https://collab-text.herokuapp.com//cable'
-  config.action_cable.allowed_request_origins = [ 'https://collab-text.herokuapp.com/' ]
+  config.action_cable.allowed_request_origins = [ 'https://daiane.codes/collab-text-js/' ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
