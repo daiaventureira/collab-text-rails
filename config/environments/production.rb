@@ -35,9 +35,9 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
-  config.web_socket_server_url = "ws://https://collab-text.herokuapp.com//cable" 
+  config.web_socket_server_url = "wss://https://collab-text.herokuapp.com//cable" 
 
-  config.action_cable.url = 'ws://https://collab-text.herokuapp.com//cable'
+  config.action_cable.url = 'wss://https://collab-text.herokuapp.com//cable'
   config.action_cable.allowed_request_origins = [ 'https://daiane.codes/collab-text-js/' ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
